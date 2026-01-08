@@ -15,7 +15,6 @@ function Homepage() {
         const fetchNotes = async () => {
             try {
                 const response = await api.get('/notes')
-                console.log(response.data);
                 setNotes(response.data)
                 setIsRateLimited(false)
 
