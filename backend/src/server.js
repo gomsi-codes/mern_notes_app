@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5001;
 
 app.use(cors(
     {
-        origin: 'http://localhost:5173', //frontend url
+        origin: 'https://mern-notes-app-frontend-rvow.onrender.com/', //frontend url
     }
 ));
 
