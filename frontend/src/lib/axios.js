@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://localhost:5001/api'
+    baseURL: 'https://mern-notes-app-backend-au3s.onrender.com/api'
 })
 
 export default api
